@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/login.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+</head>
+<body>
+    <div class="row justify-content-around">
+        <div class="col" id="col-1">
+            <h3>iMan</h3>
+          <form
+            class="p-5 border shadow-sm mx-auto rounded-2"
+            action="/user/login"
+            method="post"
+          >
+          <h4>Login ke akun anda</h4>
+            <div class="mb-3">
+              <label for="username" class="form-label"
+                >Username</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                name="username"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+                placeholder="••••••••"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <div class="mb-3">
+              Belum punya akun? <a href="/register">Klik disini</a>
+            </div>
+          </form>
+        </div>
+        <div class="col" id="col-2">
+          <div class="side">
+            <h2 class="text-center text-light p-5">Aplikasi sederhana untuk menyimpan daftar keperluan anda!</h2>
+            <img src="/assets/Cool Kids - Brainstorming.png" alt="" />
+            <p class="text-light text-center">Keuntungan Aplikasi ini dapat menyimpan daftar keperluan anda</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
